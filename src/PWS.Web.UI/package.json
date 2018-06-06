@@ -1,0 +1,38 @@
+{
+  "name": "muhammetfurkandogan.com",
+  "version": "1.0.0-beta",
+  "description": "kişisel website",
+  "main": "startup.js",
+  "scripts": {
+    "start:dev": "webpack && webpack-dev-server --open",
+    "magic": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammet Furkan DOĞAN",
+  "license": "MIT",
+  "dependencies": {
+    "extract-text-webpack-plugin": "^3.0.2",
+    "history": "^4.7.2",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "ts-loader": "^4.2.0",
+    "webpack": "^4.6.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.3.13",
+    "@types/react-dom": "^16.0.5",
+    "@types/react-router": "^4.0.24",
+    "@types/react-router-dom": "^4.2.6",
+    "awesome-typescript-loader": "^5.0.0",
+    "copy-webpack-plugin": "^4.5.1",
+    "css-loader": "^0.28.11",
+    "html-webpack-plugin": "^3.2.0",
+    "source-map-loader": "^0.2.3",
+    "style-loader": "^0.21.0",
+    "typescript": "^2.8.3",
+    "webpack-cli": "^2.0.15",
+    "webpack-dev-server": "^3.1.3"
+  }
+}

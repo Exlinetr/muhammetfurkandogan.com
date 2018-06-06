@@ -1,0 +1,41 @@
+:root{
+    --profile-font-color:#ffffff;
+    --profile-avatar-border-color:#ffffff;
+}
+
+
+.profile{
+    color:var(--profile-font-color);
+    font-size: 35px;
+    font-family: 'Source Sans Pro';
+    font-family: open sans,sans-serif;
+    font-weight: 400;
+    letter-spacing: -1px;
+    text-shadow: 0 1px 6px rgba(0,0,0,.5);
+    line-height: 1.2em;
+    text-indent: -3px;
+}
+.profile .avatar{
+}
+.profile .avatar img{
+    line-height: 0;
+    margin: 0;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    border: 3px solid var(--profile-avatar-border-color);
+}
+.profile .info{
+}
+.profile .fullName{
+    margin: 20px 0;
+}
+.profile p{
+    font-family: 'droid serif',Georgia,serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    margin: 0;
+    text-shadow: 0 1px 3px rgba(0,0,0,.35);
+    line-height: 30px;
+}

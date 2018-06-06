@@ -1,0 +1,41 @@
+.blog .context{
+    width: calc(100% - 200px);
+    float: left;
+}
+.tags{
+    float: right;
+    width: 200px;
+    margin-top: 80px; 
+    margin-bottom: 50px;
+    text-align: justify;
+    font-size: 12.5px;
+    line-height: 25px;
+    color: #777777;
+    font-family: 'Lato Regular', sans-serif;
+}
+.tags ul{
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+.tags ul li{
+    float: left;
+    width: 100%;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    border-bottom: 1px solid #EEEEEE;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 25px;
+}
+.tags a{
+    float: left;
+    background-color: #EEEEEE;
+    color: #000000;
+    text-transform: uppercase;
+    line-height: 1;
+}

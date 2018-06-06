@@ -1,0 +1,18 @@
+:root{
+    
+}
+
+.socials{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+
+.socials a{
+    color: #ffffff;
+    padding: 5px;
+}
+
+.socials a:visited{
+    color: #ffffff;
+}
